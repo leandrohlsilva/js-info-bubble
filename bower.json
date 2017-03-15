@@ -1,11 +1,12 @@
 {
   "name": "js-info-bubble",
-  "version": "0.8",
-  "homepage": "https://github.com/googlemaps/js-info-bubble",
+  "version": "0.8.1",
+  "homepage": "https://github.com/leandrohlsilva/js-info-bubble",
   "authors": [
-    "Google Inc."
+    "Google Inc.",
+    "Leandro Lourenco"
   ],
-  "description": "A library to create customizable CSS3-based InfoWindows",
+  "description": "A library to create customizable CSS3-based InfoWindows. Open operation is synchronous.",
   "main": "src/infobubble.js",
   "moduleType": [
     "globals"
