@@ -985,16 +985,13 @@ InfoBubble.prototype['close'] = InfoBubble.prototype.close;
 
 
 /**
- * Open the InfoBubble (asynchronous).
+ * Open the InfoBubble (synchronous).
  *
  * @param {google.maps.Map=} opt_map Optional map to open on.
  * @param {google.maps.MVCObject=} opt_anchor Optional anchor to position at.
  */
 InfoBubble.prototype.open = function(opt_map, opt_anchor) {
-  var that = this;
-  window.setTimeout(function() {
-    that.open_(opt_map, opt_anchor);
-  }, 0);
+  this.open_(opt_map, opt_anchor);
 };
 
 
